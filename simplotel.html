@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+  <style>
+    a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    margin: 0px;
+}
+
+h1 {
+    color: #FF5757;
+}
+
+.card {
+    background-color: #FF5757;
+    width: 100%;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+@media screen and (max-width:768px) {
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 30px;
+        height: 10px;
+        background-color: #333;
+    }
+}
+
+.card1 {
+    background: linear-gradient(to right, #FFEB3B, #FFC0CB, #D8BFD8);
+    position: absolute;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+p {
+    color: black;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card1content {
+    display: flex;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.card6 {
+    color: black;
+}
+
+.card5 {
+    background-color: #FF5757;
+    color: black;
+    height: 200px;
+    width: 320px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+}
+
+.card1image {
+    height: 800px;
+    width: 600px
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:768px) {
+    nav {
+        font-size: 10px;
+    }
+
+    .card1image {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.secondcardimage {
+    height: 250px;
+    width: 200px;
+}
+
+.secondcard {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(to right, #FFEB3B, #FFC0CB, #D8BFD8);
+    position: absolute;
+    color: white;
+    width: 100%;
+    margin-top: 810px;
+    justify-content: space-between;
+}
+
+.secondcardimage2 {
+    height: 500px;
+    width: 250px;
+}
+
+.secondcard1 {
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+
+}
+
+.card6 {
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+}
+  </style>
+</head>
+
+<body>
+    <div class="container card">
+        <div class="card3">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Order</a>
+                <a>Food</a>
+                <a href="#">Restaurant</a>
+                <a href="#">Testimonials</a>
+                <a href="#">Contact Us</a>
+                <a class="container">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </a>
+            </nav>
+            <section class="card1">
+                <div class="card1content">
+                    <h1>LOREMIPSUM</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus euismod lorem in, sollicitudin viverra eros. Donec dictum luctus quam ut tristique. Curabitur nec faucibus purus. Quisque congue sem nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac porta viverra.</p>
+                    <button>Click Me!</button>
+                </div>
+                <div>
+                    <img src="https://res.cloudinary.com/djfm5kb6n/image/upload/v1705903434/j4y9wf2nao5arfpdjlhm.png" alt="image1" class="card1image" />
+                </div>
+            </section>
+            <section class="secondcard">
+                <div class="secondcard1">
+                    <div>
+                        <div>
+                            <img src="https://res.cloudinary.com/djfm5kb6n/image/upload/c_crop,g_auto,h_800,w_800/ey8wtn9m1ffb1dxjhtjy.jpg" class="secondcardimage" />
+
+                        </div>
+                        <div>
+                            <img src="https://res.cloudinary.com/djfm5kb6n/image/upload/c_crop,g_auto,h_800,w_800/j2jc8cvbbox1u44grnd7.jpg" class="secondcardimage" />
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://res.cloudinary.com/djfm5kb6n/image/upload/c_crop,g_auto,h_800,w_800/ljam7uwtuuyhhrsi4qye.jpg" class="secondcardimage2" />
+                    </div>
+                </div>
+                <div class="card6">
+                    <div class="card5">
+                        <p>Loremipsum</p>
+                        <h1 class="card6">L O R E M I P S U M S E T A D E M I R</h1>
+                        <button>Click <span>-></span></button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

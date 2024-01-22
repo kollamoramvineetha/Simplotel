@@ -1,0 +1,9 @@
+.card{
+	background-color: black;
+	color:white;
+	height:20vh;
+	margin:auto;
+	padding:50px;
+	position:absolute;
+	text-align:center;
+}
